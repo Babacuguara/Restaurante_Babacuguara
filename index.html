@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurante Babaçuguará</title>
-    <link rel="stylesheet" href="estilos/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="mobile-menu">
-          <div class="line1"></div><br>
-          <div class="line2"></div><br>
-          <div class="line3"></div><br>
-          <div class="line4"></div><br>
-        </div>
-        <ul class="nav-list">
-          <li><a href="restaurante.html">O Restaurante</a></li>
-          <li><a href="cardapio.html">Cárdapio</a></li>
-          <li><a href="#">Promoção</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      
-    </header>
-    <main>
-      <div class="texto">
-        <p>Gosto tanto de comer, que meu lugar favorito é o Restaurante Babaçuguará</p>
-        </div>
-        <div class="imagem">
-          <source media="(max-width:800px)" srcset="imagens/logo001.pgn">
-          <img src="imagens/logo001-pqq.png" alt="guara">
-        
-        </div>
-         
-    </main>
-          
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Mobile</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+
+<body>
+  <header id="header">
+    <a id="logo" href=""></a>
+      <img src="imagens/logo001-pqqq.png" alt="logo">
+    <nav id="nav">
+    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+     
+      <ul id="menu" role="menu">
+        <li><a href="restaurante.html">Restaurante</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="/">promoção</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
-  </section>
+    </nav>
 
-    
-    <script src="mobile-navbar.js"></script>
-    
-<footer class="rodape">
-  <p>Site criado por Raimundo Marques</p>
-</footer>
-  </body>
+  </header>
+  <div class="bem_vindo">
+    <h1>Bem vindo ao Restaurante Babaçuguará</h1>
+  </div>
+  <header class="Imagens">
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Butuns-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim do radio-->
+
+            <!--Slides de imagens-->
+            <div class="slide first">
+                <img src="imagens/galinha001.jpg" alt="imagem 001">
+            </div>
+            <div class="slide">
+                <img src="imagens/peixe_frito.jpg" alt="imagem 002">
+            </div>
+            <div class="slide">
+                <img src="imagens/galinha002.jpg" alt="imagem 003">
+            </div>
+            <div class="slide">
+                <img src="imagens/peixada001.jpg" alt="imagem 004">
+            </div>
+            <!--Fim das imagens-->
+            
+            <!--Navegação auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <div class="dizeres">
+      <p>
+        Gosto tando de comer, que meu lugar preferido é o Restaurante Babaçugurá!
+      </p>
+    </div>
+</header>
+  <script src="JS/script.js"></script>
+  <footer class="rodape">
+    <p>Site criado por Raimundo Marques</p>
+  </footer
+</body>
+
 </html>
