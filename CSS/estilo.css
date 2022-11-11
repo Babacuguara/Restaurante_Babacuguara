@@ -43,7 +43,7 @@ a:hover {
 .slider{
   margin: 0 auto;
   width: 800px;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -98,7 +98,7 @@ a:hover {
   margin-left: -50%;
 }
 #radio4:checked ~ .first{
-  margin-left: -75-%;
+  margin-left: -75%;
 }
 .navigation-auto div{
   border: 2px solid #20a6ff;
