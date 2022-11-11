@@ -1,39 +1,287 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio</title>
+    <link rel="stylesheet" href="CSS/paginas.css">
 </head>
-<style>
-    
-    body {
-        background-color: bisque;
-        color: red;
-        background-image: url(frente2.jpg);
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-
-    }
-    p {
-        margin-right: 0px;
-    }
-</style>
-
 <body>
-    <a id="logo" href=""></a>
-        <img src="imagens/logo001-pqq.png" alt="logo">
-    <p><a href="index.html">Voltar a página anterior</a></p>
-    <h1>Cardápio Refeições</h1>
-    <img src="imagens/Cardapio-comidas.jpg" alt="comida" width="400px"><br>
-    <h1>Cardápio de Bebidas</h1>
-    <img src="imagens/Cardapio-bebidas.jpg" alt="bebida" width="400px">
-    <p><a href="index.html">Voltar a página anterior</a></p>
+     <!--------------SCROLL TOP------------------------>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevrons-up scroll__top__icon'></i>
+    </a>
+    <header class="header" id="header">
+        <!-- NAV -->
+        <nav class="nav bd-container">
+            <h1>
+                <a href="" class="logo">logo</a>
+            </h1>
+
+            <!-- CARDÁPIO -->
+            <section class="cardapio section" id="cardapio">
+                <h1 class="section-title">Cardápio</h1>
+                <h2 class="section-subtitle">Refeições</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/peixada_ma200.jpg" alt="Salada Primavera">
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Maranhense</h3>
+                            <div class="card__descripition">
+                                <small>800g de pescada amarela cozida no leite de coco, arroz branco, ovos e pirão</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 120,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/peixada_ma200.jpg" alt="Salada Green">
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Maranhense (meia)</h3>
+                            <div class="card__descripition">
+                                <small>800g de pescada amarela cozida no leite de coco, arroz branco, ovos e pirão</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/peixada_ma_mista200.jpg" alt="Peixada Maranhense">
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Mista</h3>
+                            <div class="card__descripition">
+                                <small>600g de pescada amarela cozida no leite de coco, 200g de camarão arroz branco, ovos e pirão</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 130,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/pescada-amarela-frita200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Frita</h3>
+                            <div class="card__descripition">
+                                <small>600g de pescada amarela frita, arroz branco, farofa e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 90,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/pescada_escabeche200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Escabeche</h3>
+                            <div class="card__descripition">
+                                <small>600g de pescada amarela frita ao molho, arroz branco, farofa e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 90,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/camaroada200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camaroada</h3>
+                            <div class="card__descripition">
+                                <small>600g de camarão, arroz branco, ovos e pirão</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 120,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/carne_de_sol200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Carne de Sol</h3>
+                            <div class="card__descripition">
+                                <small>600g de carne de sol, batata, arroz branco, farofa e vingrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 90,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="imagens/pratos/camaroada200.jpg" alt="Salada Fit">
+                            </div>
+                            <div class="card__data">
+                                <h3>Galinha Caipira</h3>
+                                <div class="card__descripition">
+                                    <small>Galinha caipira, arroz branco, pirão, macarrão e salada</small>
+                                </div>
+                            </div>
+                            <div class="card__preci">
+                                <span>R$ 140,00</span>
+                            </div>
+                            <i class='bx bxs-cart card__cart'></i>
+                        </div>
+
+                        <i class='bx bxs-cart card__cart'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Entrada/Petisco</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/carne_de_sol200.jpg" alt="Salada Primavera">
+                        </div>
+                        <div class="card__data">
+                            <h3>Carne de Sol</h3>
+                            <div class="card__descripition">
+                                <small>300g de carne de sol, farova e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/bisteca_suina200.jpg" alt="Salada Green">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bisteca Suina</h3>
+                            <div class="card__descripition">
+                                <small>Bisteca suína, batata, farofa e viangrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 40,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/calabresa200.jpg" alt="Peixada Maranhense">
+                        </div>
+                        <div class="card__data">
+                            <h3>Calabresa acebolada</h3>
+                            <div class="card__descripition">
+                                <small>Calabresa, farofa e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 25,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/batata200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Batata Frita</h3>
+                            <div class="card__descripition">
+                                <small>300g de batata frita</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 20,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/batata200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Batata Frita</h3>
+                            <div class="card__descripition">
+                                <small>150g de batata frita</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 10,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/camarao_alho_e_oleo200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camarão ao alho e óleo</h3>
+                            <div class="card__descripition">
+                                <small>300g de camarão, acompanha farofa e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="imagens/pratos/pescada-amarela-frita200.jpg" alt="Salada Fit">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada frita</h3>
+                            <div class="card__descripition">
+                                <small>Posta de pescada frita, acompanha farofa e vinagrete</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                        <div>
+                            <i class='bx bxs-cart card__cart'></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- END CARDÁPIO -->
+        </nav>
+        <!-- END NAV -->
+    </header>
+    <!-- END HEADER -->
 </body>
-<footer>
-    Página criada por Raimundo Marques
-</footer>
 </html>
