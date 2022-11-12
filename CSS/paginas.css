@@ -113,6 +113,7 @@ img {
   letter-spacing: 4px;
   color: var(--first-color);
   margin-top: var(--mb-6);
+  background-color: antiquewhite;
 }
 
 .section-subtitle {
@@ -122,6 +123,8 @@ img {
   font-weight: var(--font-light);
   letter-spacing: 4px;
   margin-bottom: var(--mb-1);
+  color: red;
+  background-color: antiquewhite;
 }
 
 .section-text {
