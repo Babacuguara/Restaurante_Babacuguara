@@ -133,6 +133,13 @@ img {
   letter-spacing: 1.2px;
   line-height: 24px;
   margin-bottom: var(--mb-2);
+  
+}
+.contato_title  {
+  background-color: #36ba5b;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
 }
 /*---------------LAYOUT-------------------*/
 

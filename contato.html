@@ -5,41 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="CSS/paginas.css">
 
 </head>
-<style>
-        
-        body {
-        background-color: bisque;
-        color: red;
-        background-image: url(frente2.jpg);
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-
-    }
-    p {
-        margin-right: 0px;
-    }
-</style>
 
 <body>
-    <a id="logo" href=""></a>
-        <img src="imagens/logo001-pqq.png" alt="logo">
-   
-    <section>
-        
-        <div class="imagem">
-        
-            <h1>Contato</h1>
-        </div>
+    <!--------------SCROLL TOP------------------------>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevrons-up scroll__top__icon'></i>
+    </a>
+    <div class="inicio">
+        <a id="logo" href=""></a>
+        <img src="imagens/logo001-pqq.png" alt="logo">   
+    </div>
+    <header class="header" id="header">
+        <!-- NAV -->
+        <nav class="nav bd-container">
+        </nav>
+        <!-- END NAV -->
+                <!-- CONTATO -->
+                <section class="contato section" id="contato">
+                    <h1 class="section-title">Contato</h1>
+                    <h2 class="section-subtitle">Estamos ansiosos por falar com você</h2>
+                    <div class="contato__container bd-container bd-grid">
+                        <div class="contato__data">
+                            <div class="contato_cta"><br>
+                                <h3 class="contato_title">SITE EM CONSTRUÇÃO</h3><br>
+                                <p>Se você deseja fazer uma resevar em nosso restaurante contate-nos e escolha sua data.</p>
+                                <a href="#" class="btn-outline">FAZER RESERVA</a>
+                            </div>
+                        </div>
 
-
-
-
-
-    </section>
+                        <div class="contato__form">
+                            <h3 class="contato__title">Fale Conosco</h3>
+                            <form class="form-control">
+                                <label for="name">NOME</label>
+                                <input type="text" id="name">
+                                <label for="email">E-MAIL</label>
+                                <input type="email" id="email">
+                                <label for="mensagem">MENSAGEM</label>
+                                <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                                <button class="btn">ENVIAR MENSAGEM</button>
+                                    
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <!-- END CONTATO -->
+    </header>
+    <!-- END HEADER -->    
 
 </body>
 </html>
