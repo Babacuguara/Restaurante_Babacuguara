@@ -44,8 +44,6 @@
     --z-tooltip: 10;
 }
 
-
-
 /*---------------BASE-------------------*/
 *,
 ::before,
@@ -65,17 +63,16 @@ body {
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-    line-height: 1.2;
-  
-    
+    line-height: 1.2;  
 }
 
-
 .inicio {
-  margin: -90x;
+  
   margin-top: 0 0;
   align-items: center;
   text-align: center;
+  background-color: red;
+
 
 }
 ul {
@@ -96,6 +93,15 @@ img {
   padding: 4rem 0 2rem;
 }
 
+.separacao {
+  background-color: aquamarine;
+}
+.categoria_produtos {
+  color: red;
+  background-color: bisque;
+  text-align: center;
+
+}
 .section-title,
 .section-subtitle {
   text-align: center;
