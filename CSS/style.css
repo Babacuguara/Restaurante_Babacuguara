@@ -358,11 +358,12 @@ FORM
 }
 
 .dizeres {
-  font-size: 2rem;
+  font-size: rem;
   background-color: yellow;
   text-align: center;
   justify-content: space-between;
   font-weight: bold;
+  font-size: 3.6rem;
 
 }
 .rodape {
