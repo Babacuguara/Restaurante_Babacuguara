@@ -39,15 +39,15 @@ html {
     .menu-toggle {
         width: 40px;
         height: 30px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     /* fullscreen */
     .menu-section.on {
         position: absolute;
-        top:0;
+        top: 0;
         left:0;
-        
+        margin-top: 131px;
         width: 100vw;
         height: 100vh;
 
