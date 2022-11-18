@@ -1,9 +1,32 @@
-body,
-ul {
-  margin: 0px;
-  padding: 0px;
+@import url("https://fonts.google.com/specimen/Source+Sans+Pro?query=source");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  font-size: 62,5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizeLegibility;
+  
   background-color: aquamarine;
 }
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #7159c1;
+}
+
+
 
 a {
   color: black;
@@ -32,26 +55,33 @@ a:hover {
 
 #header {
   box-sizing: border-box;
-  height: 70px;
+  height: 100p%;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-   background-color: red;
-
+  background-color: red;
 }
+
 .slider{
   margin: 0 auto;
-  width: 800px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  align-items: center center;
+  top: 50%;
+  left: 50%;
 }
 
 .slides{
   margin-top: 5px;
   width: 400%;
-  height: 400px;
+  height: 100%;
   display: flex;
+  align-items: center center;
+  top: 50%;
+  left: 50%;
+
   
 }
 .slides input{
@@ -209,20 +239,16 @@ a:hover {
   }
 }
 .dizeres {
+
   color:black;
   background-color: greenyellow;
   text-align: center;
-  margin: 50px;
-  font-size: 25px;
-  margin-left: 340px;
-  margin: auto;
-  
+
 }
 .rodape {
   color: white;
   background-color: black;
   text-align: center;
-  margin-top: 110px;
-  font-size: 10px;
   margin: auto;
+  font-size: 1.0rem;
 }
