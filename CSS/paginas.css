@@ -298,7 +298,8 @@ img {
 }
 
 .card__preci {
-  margin-top: var(--mb-0.5);
+  margin-top: var(--mb-.5);
+  
 }
 
 .card__preci span {
@@ -306,7 +307,7 @@ img {
   font-size: var(--h2-font-size);
   position: relative;
   left: 1rem;
-  bottom: 1rem;
+  bottom: 2rem;
 }
 
 .card__cart {
