@@ -1,3 +1,4 @@
+/*alterador*/
 let show = true; 
 
 const menuSection = document.querySelector(".menu-section")

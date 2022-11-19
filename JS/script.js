@@ -1,3 +1,4 @@
+/*alterado*/
 // Make Cards
 const sectionCards = document.querySelector("section.cards");
 
