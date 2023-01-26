@@ -83,7 +83,7 @@ a {
     text-decoration: none;
 }
 
-img {
+g {
     max-width: 100%;
     height: auto;
 }
@@ -100,8 +100,9 @@ img {
   color: red;
   background-color: bisque;
   text-align: center;
-
+  height: 30px;
 }
+
 .section-title,
 .section-subtitle {
   text-align: center;
@@ -109,7 +110,7 @@ img {
 
 .section-title {
   font-family: var(--font-logo);
-  font-size: var(--h1-font-size);
+  font-size: var(--big-font-size);
   letter-spacing: 4px;
   color: var(--first-color);
   margin-top: var(--mb-6);
@@ -117,7 +118,6 @@ img {
 }
 
 .section-subtitle {
-  display: block;
   color: var(--text-color);
   font-size: var(--h1-font-size);
   font-weight: var(--font-light);
@@ -213,6 +213,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
+
 /* SCROLL HEADER*/
 .scroll-header {
   margin: auto;
@@ -271,7 +272,7 @@ img {
   transform: scale(1.1);
 }
 
-.card__img {
+.card   img {
   border-radius: 8px 8px 0 0;
 }
 
@@ -367,4 +368,44 @@ img {
     padding: 0;
     grid-template-columns: repeat(1, 1fr);
 
+
+  }
+/*---------------RESTAURANTE-------------------*/
+
+.anterior {
+  background-color: wheat;
+  text-align: right;
+  
+}
+.corpo {
+  background-color: wheat;
+}
+.conteudos {
+background-color: wheat;
+color: black;
+margin: 10pt;
+}
+
+.conteudo_01 {
+  margin-top: 20pt;
+  margin-left: 10pt;
+  display: flex;
+
+}
+.conteudo_02 {
+  margin-top: 20pt;
+  margin-left: 10pt;
+  display: flex;
+}
+
+.conteudo_03 {
+  margin-top: 20pt;
+  margin-left: 10pt;
+  display: flex;
+}
+.texto {
+  margin-top: 30pt;
+  margin-left: 30pt;
+  margin-right: 30pt;
+  text-align: justify;
 }
