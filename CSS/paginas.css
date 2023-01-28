@@ -213,6 +213,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
+}
 /* SCROLL HEADER*/
 .scroll-header {
   margin: auto;
@@ -385,7 +386,7 @@ body {
   }
   */
   .corpo {
-    width: 960px;
+    width: 90%;
     margin: auto;
     color: #555;
     
@@ -396,16 +397,23 @@ body {
     
   }
 
+  .conteudos {
+    background-color: wheat;
+  }
 .conteudo_01 {
   display: flex;
+  
 }
  
 .conteudo_02 {
   display: flex;
+  
+  
 }
 
 .conteudo_03 {
   display: flex;
+  
 }
 
 .img {
@@ -423,5 +431,5 @@ body {
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 17px;
+    font-size: 14px;
   }
