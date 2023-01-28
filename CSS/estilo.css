@@ -360,19 +360,23 @@ FORM
 
 .dizeres {
   font-size: rem;
-  background-color: yellow;
+  background-color: rgba(214, 241, 10, 0.945);
   text-align: center;
   justify-content: space-between;
   font-weight: bold;
   font-size: 2rem;
-  
   width: 100%;
-  max-width: 980px;
+  max-width: 100%;
   margin: auto;
 
 }
 .image {
-  background-color: wheat;
+  background-color: rgba(214, 241, 10, 0.945);
+}
+
+.texto {
+  text-align: center;
+  background-color: rgba(214, 241, 10, 0.945);
 }
 
 

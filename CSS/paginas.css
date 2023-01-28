@@ -398,7 +398,7 @@ body {
   }
 
   .conteudos {
-    background-color: wheat;
+    background-color: rgba(241, 114, 10, 0.749);
   }
 .conteudo_01 {
   display: flex;
