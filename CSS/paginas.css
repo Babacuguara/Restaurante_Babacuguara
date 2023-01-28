@@ -64,7 +64,7 @@ body {
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-    line-height: 1.2;  
+    line-height: 1.2;
 }
 
 .inicio {
@@ -368,3 +368,60 @@ img {
     grid-template-columns: repeat(1, 1fr);
 
 }
+
+/*---------------PAGINA RESTAURANTE-------------------*/
+
+/*
+body {
+    background-image: linear-gradient(to bottom, yellow, rgb(230, 7, 7), gray);
+    color: #555;
+    font-family: Arial, sans-serif;
+  }
+  */
+  /*
+  body {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.804), rgba(230, 223, 7, 0.727), rgba(249, 164, 17, 0.881));
+    font-family: Arial, sans-serif;
+  }
+  */
+  .corpo {
+    width: 960px;
+    margin: auto;
+    color: #555;
+    
+  }
+
+  .anterior {
+    text-align: right;
+    
+  }
+
+.conteudo_01 {
+  display: flex;
+}
+ 
+.conteudo_02 {
+  display: flex;
+}
+
+.conteudo_03 {
+  display: flex;
+}
+
+.img {
+  display: table-cell;
+  float: left;
+  margin-top: 20pt;
+  }
+
+  .texto {
+    display: table-cell;
+    margin-top: 20pt;
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 17px;
+  }
