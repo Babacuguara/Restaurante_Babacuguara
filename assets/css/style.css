@@ -1,20 +1,20 @@
-/*---------------GOOGLE FONTS-------------------*/
+/*---------------GOOGLE FONTES-------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300;400;700&display=swap');
 
-/*---------------VARIABLES CSS-------------------*/
+/*---------------VARIAVEIS CSS-------------------*/
 :root {
     --header-height: 4.5rem;
 
-    /*---------------COLLORS -------------------*/
-    --first-color: #ec0e0e;
-    --first-color_alt: #f91505;
-    --first-color_alt_light: #f52109f9;
-    --light-color: #ffffff;
+    /*---------------CORES -------------------*/
+    --first-color: #fff;
+    --first-color_alt: #4a05f9;
+    --first-color_alt_light: #44f509f9;
+    --light-color: #f90707;
     --text-color: #1f1d07;
-    --body-color: #ffffff;
-    --container-color: #f1fcdc;
+    --body-color: #fff;
+    --container-color: #ffa500;
 
-    /*---------------FONT  AND TYPOGRAPHY-------------------*/
+    /*---------------FONTE E TIPOGRAFIA-------------------*/
     --body-font: "Lato", sans-serif;
     --font-logo: 'Italiana', serif;
     --big-font-size: 2rem;
@@ -24,18 +24,20 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
 
-    /*---------------FONT WEIGHT-------------------*/
+    /*---------------FONTE WEIGHT-------------------*/
     --font-light: 300;
     --font-medium: 400;
     --font-bold: 700;
 
-    /*---------------MARGINS-------------------*/
+    /*---------------MARGENS-------------------*/
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+    --mb-7: 4rem;
+    --mb-8: 5rem;
 
     /*---------------Z INDEXS-------------------*/
     --Z-fixed: 100;
@@ -70,6 +72,7 @@ ul {
 
 a {
     text-decoration: none;
+    
 }
 
 img {
@@ -77,7 +80,7 @@ img {
     height: auto;
 }
 
-/*---------------BUTTONS-------------------*/
+/*---------------BOTÃO ENVIAR MENSAGEM-------------------*/
 .btn {
     width: 100%;
     background: linear-gradient(to right, #93372b 0%, #b97e18 100%);
@@ -101,6 +104,8 @@ img {
     letter-spacing: 6px;
 }
 
+/* BOTÃO DE RESERVA*/
+/*
 .btn-outline {
     width: 100%;
     background-color:transparent;
@@ -124,7 +129,7 @@ img {
     border: 1px solid var(--light-color);
     color: var(--light-color);
 }
-
+*/
 /*--------------- CLASS CSS-------------------*/
 .section {
     padding: 4rem 0 2rem;
@@ -184,12 +189,12 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--Z-fixed);
-    background-color: var(--light-color);
+    
+    background-color: red;
 }
 
 .bg-container {
-    background-color: var(--container-color);
+    background-color: var(--body-color);
 }
 
 /*-----------NAV---------------*/
@@ -200,13 +205,15 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 0;
+    
 }
 
+/* MENU  TELA PEQUENA */
 @media (max-width: 960px){
     .nav__menu {
         position: absolute;
         top: 0;
-        right: -100%;
+        right: 100%;
         width: 50%;
         height: 100vh;
         text-align: right;
@@ -216,18 +223,19 @@ img {
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.1);
         z-index: var(--z-tooltip);
         transition: 0.4s;
+        
     }
 
-    .nav__menu .logo{
-        padding-left: 4rem;
-    }
+
 
     .nav__menu .nav__item {
         margin-bottom: var(--mb-2);
+        
     }
     
     .nav__menu .nav__item:first-child {
         margin-top: 8rem;
+        
     }
 
     .show-menu {
@@ -279,6 +287,7 @@ img {
 /* SCROLL HEADER*/
 .scroll-header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 /* SCROLL TOP*/
@@ -341,6 +350,9 @@ img {
     color: var(--text-color);
     margin-bottom: var(--mb-5);
 }
+.img_home {
+    margin-top: auto;
+}
 
 .bebidas {
     background-color: #b97e18;
@@ -393,7 +405,7 @@ img {
 
 .about__data {
     margin-top: var(--mb-4);
-    background-color: var(--light-color);
+    background-color: var(--body-color);
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
@@ -406,6 +418,7 @@ img {
 }
 
 /*---------- CARDAPIO------------*/
+/*figura do carro na imagem da comida*/
 .cardapio__container {
     padding: 1rem 4rem;
     
@@ -442,21 +455,26 @@ img {
     color: var(--first-color);
     margin-top: var(--mb-2);
     margin-left: var(--mb-2);
+    color: #ffa500;
 }
 
 .card__data .card__descripition {
     margin-left: var(--mb-2);
 }
 
+
 .card__data small {
     font-weight: var(--font-light);
     font-size: var(--normal-font-size);
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-3);
     margin-bottom: var(--mb-4);
 }
 
 .card__preci {
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-7);
+    text-align-last: center;
+    /*border: 5px solid #4a05f9;*/
+    
 }
 
 .card__preci span {
@@ -464,7 +482,8 @@ img {
     font-size: var(--h2-font-size);
     position: relative;
     left: 1rem;
-    bottom: 1rem;
+    bottom: 0rem;
+    /*border: 5px solid #f90707;*/
 }
 
 .card__cart {
@@ -485,9 +504,17 @@ img {
 
 .card__cart:hover {
     background-color: var(--first-color_alt);
+
+}
+
+.bx {
+    border: 1px solid #fe0703;
+    width: 10%;
+    height: 10%;
 }
 
 /*----------DELIVERY-----------*/
+
 .delivery {
     height: 100vh;
     display: flex;
@@ -551,6 +578,8 @@ img {
 
 .contato__form .contato__title {
     text-align: center;
+    
+    
 }
 
 .form-control {
