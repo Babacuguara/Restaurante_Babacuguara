@@ -153,10 +153,9 @@ img {
     display: block;
     color: var(--text-color);
     font-size: 25px;
-    
     font-weight: var(--font-light);
     letter-spacing: 4px;
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-7);
     background-color: darkorange;
     color: white;
     
@@ -189,7 +188,6 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    
     background-color: red;
 }
 
@@ -460,21 +458,21 @@ img {
 
 .card__data .card__descripition {
     margin-left: var(--mb-2);
+
 }
 
 
 .card__data small {
     font-weight: var(--font-light);
     font-size: var(--normal-font-size);
-    margin-top: var(--mb-3);
-    margin-bottom: var(--mb-4);
+    margin-top: var(--mb-1);
+    margin-bottom: var(--mb-1);
+    
 }
 
 .card__preci {
-    margin-top: var(--mb-7);
+    margin-top: var(--mb-3);
     text-align-last: center;
-    /*border: 5px solid #4a05f9;*/
-    
 }
 
 .card__preci span {
