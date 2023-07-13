@@ -40,6 +40,7 @@
     --mb-8: 5rem;
     --mb-9: 6rem;
     --mb-10: 6.5rem;
+    --mb-11: 8rem;
 
     /*---------------Z INDEXS-------------------*/
     --Z-fixed: 100;
@@ -421,7 +422,7 @@ img {
 /*figura do carro na imagem da comida*/
 .cardapio__container {
     padding: 1rem 4rem;
-  
+    margin-top: var(--mb-11);
     
 }
 
