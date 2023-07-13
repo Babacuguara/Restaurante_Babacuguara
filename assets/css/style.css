@@ -38,6 +38,8 @@
     --mb-6: 3rem;
     --mb-7: 4rem;
     --mb-8: 5rem;
+    --mb-9: 6rem;
+    --mb-10: 6.5rem;
 
     /*---------------Z INDEXS-------------------*/
     --Z-fixed: 100;
@@ -419,6 +421,7 @@ img {
 /*figura do carro na imagem da comida*/
 .cardapio__container {
     padding: 1rem 4rem;
+  
     
 }
 
@@ -430,7 +433,6 @@ img {
     margin-bottom: var(--mb-4);
     transition: 0.4s;
     
-    
 }
 
 .card:hover {
@@ -439,25 +441,28 @@ img {
 
 .card img {
     border-radius: 8px 8px 0 0;
-    
+    height: 150px;
     
 }
 
 .card__data {
     height: 6rem;
+    
 }
 
 .card__data h3 {
     font-weight: var(--font-bold);
     font-size: var(--h2-font-size);
     color: var(--first-color);
-    margin-top: var(--mb-2);
-    margin-left: var(--mb-2);
+    margin-top: var(--mb-1);
+    margin-left: var(--mb-1);
     color: #ffa500;
+    height: 80px;
 }
 
 .card__data .card__descripition {
-    margin-left: var(--mb-2);
+    margin-left: var(--mb-1);
+    margin-top: var(--mb-1);
 
 }
 
@@ -467,12 +472,13 @@ img {
     font-size: var(--normal-font-size);
     margin-top: var(--mb-1);
     margin-bottom: var(--mb-1);
-    
+       
 }
 
 .card__preci {
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-10);
     text-align-last: center;
+    background-color: red;
 }
 
 .card__preci span {
