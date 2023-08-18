@@ -480,7 +480,7 @@ img {
 }
 
 .card__preci {
-    margin-top: var(--mb-6);
+    margin-top: var(--mb-8);
     text-align-last: center;
     background-color: red;
 }
