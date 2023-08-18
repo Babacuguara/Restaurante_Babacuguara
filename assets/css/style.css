@@ -135,12 +135,15 @@ img {
 */
 /*--------------- CLASS CSS-------------------*/
 .section {
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 2rem;
+    margin-top: 0rem;
 }
 
 .section-title,
 .section-subtitle {
+    margin-top: 1rem;
     text-align: center;
+    background-color: #f90707;
 }
 
 
@@ -149,7 +152,7 @@ img {
     font-size: var(--h1-font-size);
     letter-spacing: 4px;
     color: var(--first-color);
-    margin-top: var(--mb-6);
+    margin-top: var(--mb-2);
 }
 
 .section-subtitle {
@@ -157,8 +160,8 @@ img {
     color: var(--text-color);
     font-size: 25px;
     font-weight: var(--font-light);
-    letter-spacing: 4px;
-    margin-bottom: var(--mb-7);
+    letter-spacing: 1Zpx;
+    margin-bottom: var(--mb-2);
     background-color: darkorange;
     color: white;
     
@@ -421,17 +424,17 @@ img {
 /*---------- CARDAPIO------------*/
 /*figura do carro na imagem da comida*/
 .cardapio__container {
-    padding: 1rem 4rem;
-    margin-top: var(--mb-11);
+    padding: 2rem 2rem;
+    margin-top: var(--mb-05);
     
 }
 
 .card {
     position: relative;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    margin-top: var(--mb-4);
-    margin-bottom: var(--mb-4);
+    margin-top: var(--mb-3);
+   
     transition: 0.4s;
     
 }
@@ -447,7 +450,7 @@ img {
 }
 
 .card__data {
-    height: 6rem;
+    height: 6.5rem;
     
 }
 
@@ -458,7 +461,7 @@ img {
     margin-top: var(--mb-1);
     margin-left: var(--mb-1);
     color: #ffa500;
-    height: 80px;
+    height: 90px;
 }
 
 .card__data .card__descripition {
@@ -520,7 +523,7 @@ img {
 
 /*----------DELIVERY-----------*/
 
-.delivery {
+/* .delivery {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -529,8 +532,8 @@ img {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
+} */
+/* 
 .delivery__container {
     border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 6px;
@@ -551,8 +554,8 @@ img {
 .delivery__data a {
     width: 50%;
     margin-top: var(--mb-3);
-    letter-spacing: 3px;
-}
+    letter-spacing: 3px; 
+}*/
 
 /*----------CONTATO---------*/
 .contato__container {
