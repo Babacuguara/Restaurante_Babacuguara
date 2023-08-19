@@ -373,6 +373,7 @@ img {
     background-color: #b97e18;
     text-align: center;
     color: #ffffff;
+    margin-top: 3rem;
 }
 /*
 .home__btn {
@@ -492,10 +493,11 @@ img {
 }
 
 .card__preci {
-    margin-top: var(--mb-8);
+    margin-top: var(--mb-7);
     text-align-last: center;
     background-color: red;
 }
+
 
 .card__preci span {
     font-weight: var(--font-bold);
