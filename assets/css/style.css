@@ -155,10 +155,12 @@ img {
     letter-spacing: 4px;
     color: var(--first-color);
     margin-top: var(--mb-11);
+
     
 }
 .paragrafo{
     text-align: center;
+    
 }
 
 .section-subtitle {
