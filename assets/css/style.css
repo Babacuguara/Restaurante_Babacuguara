@@ -86,7 +86,8 @@ img {
 /*---------------BOTÃO ENVIAR MENSAGEM-------------------*/
 .btn {
     width: 100%;
-    background: linear-gradient(to right, #93372b 0%, #b97e18 100%);
+    /* background: linear-gradient(to right, #93372b 0%, #b97e18 100%); */
+    background-color: #f90707;
     border: none;
     outline: none;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
@@ -96,7 +97,7 @@ img {
     letter-spacing: 4px;
     text-align: center;
     outline: none;
-    color: var(--light-color);
+    color: white;
     border-radius: 6px;
     display: inline-block;
     margin: 0 auto;
@@ -136,14 +137,15 @@ img {
 /*--------------- CLASS CSS-------------------*/
 .section {
     padding: 2rem 0 2rem;
-    margin-top: 0rem;
+    margin-top: 1   rem;
 }
 
 .section-title,
 .section-subtitle {
-    margin-top: 1rem;
+    margin-top: 6rem;
     text-align: center;
-    background-color: #f90707;
+    background-color: darkorange;
+    width: 100%;
 }
 
 
@@ -152,7 +154,11 @@ img {
     font-size: var(--h1-font-size);
     letter-spacing: 4px;
     color: var(--first-color);
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-11);
+    
+}
+.paragrafo{
+    text-align: center;
 }
 
 .section-subtitle {
@@ -161,20 +167,23 @@ img {
     font-size: 25px;
     font-weight: var(--font-light);
     letter-spacing: 1Zpx;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
     background-color: darkorange;
     color: white;
-    
-
+    text-align: center;
+    margin-top: var(--mb-5);
 }
+
 
 .section-text {
     font-size: var(--h3-font-size);
     color: var(--text-color);
     letter-spacing: 1.2px;
     line-height: 24px;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
+    text-align: center;
 }
+
 
 /*---------------LAYOUT-------------------*/
 
@@ -425,15 +434,16 @@ img {
 /*figura do carro na imagem da comida*/
 .cardapio__container {
     padding: 1rem 1rem;
-    margin-top: var(--mb-05);
+    margin-top: var(--mb-2);
     
 }
+
 
 .card {
     position: relative;
     border-radius: 10px;
     box-shadow: 0 4px 4px rgba(251, 1, 1, 0.768);
-    margin-top: var(--mb-10);
+    margin-top: var(--mb-5);
    
     transition: 0.4s;
     
