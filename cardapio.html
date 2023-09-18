@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
 
     <!--css-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cardapio.css">
 </head>
 <body>
       <!--------------SCROLL TOP------------------------>
@@ -27,10 +28,10 @@
 
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
-                <li class="nav__item"><a href="cardapio.html" class="nav__link">Cardápio</a></li>
-                <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="cardapio.html" class="nav__link active-link">Cardápio</a></li>
+                <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
+                <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
        <!--         <li class="nav__item"><a href="#" class="btn">RESERVA</a></li> -->
             </ul>
         </div>
@@ -50,20 +51,29 @@
         <h2 class="section-subtitle">REFEIÇÕES</h2>
         <p class="paragrafo"><a href="index.html">Voltar a página anterior</a></p>
         <div class="cardapio__container bd-container bd-grid">
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/pratos/peixada_ma.jpg" alt="Peixada Maranhense">
-                </div>
-                <div class="card__data">
+
+            <div class="card"  id="foto01">
+                    <div class="card__img">
+                        <a href="#foto01">
+                            <img src="assets/img/pratos/peixada_ma.jpg" alt="Peixada Maranhense">
+                        </a>
+                    </div>                 
+            </div>
+                <div>
                     <h3>Peixada Maranhense</h3>
                     <div class="card__descripition">
                         <small>800g de pescada amarela cozida no leite de coco, arroz branco, ovos e pirão.</small>
                     </div>
+                    <div class="card__preci">
+                        <span>R$ 130,00</span>
+                    </div>
                 </div>
-                <div class="card__preci">
-                    <span>R$ 130,00</span>
+                <div class="cardfoto">
+                    <h4>Serve</h4>
+                    <h4 class="quant_h">04</h4>
+                    <h4>Pessoas</h4>
                 </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
+                <br> <a href="#fechar" class="fechar">Fechar</a>
             </div>
 
             <div class="card">

@@ -1,0 +1,91 @@
+.cardapio__container > div{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card__data{
+    display: flex;
+}
+.card img {
+    width: 30%;
+    display: block;
+    /* position: relative; */
+}
+.card {
+    height: 100%;
+}
+
+/* .cardfoto{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    position: relative;
+}
+
+ .cardfoto{
+    display: none;
+    background-color: rgb(244, 12, 12);
+    color: #000;
+    font-size: 0.5rem;
+    margin-right: 10px;
+    padding: 0px;
+    width: 30px;
+    height:60px;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    text-align: center;
+    justify-content: center; 
+
+} */
+
+.card__img {
+    text-align: right;
+    padding: 0;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.card__descripition{
+    /* display: none; */
+    margin-right: 10px;
+}
+
+
+.quant_h{
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    width: 15px;
+    height: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+.fechar{
+    display: none;
+}
+
+/* AUMENTAR A FOTO*/
+.cardapio__container .card:target{
+    position: fixed;
+    width: 80%;
+    top: 15px;
+    left: 5%;
+    padding: 10px;
+    border: solid 1px #333;
+    box-shadow: 0 0 25px 10px #000;
+    background: #fff;
+    border-radius: 5px;
+}
+ .card:target .card__descripition{
+    display: block;
+} 
+.card:target .fechar{
+    display: block;
+} 
+ 
+.card:target .quant{
+    display: block;
+} 

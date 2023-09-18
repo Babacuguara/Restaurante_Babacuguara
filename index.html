@@ -10,29 +10,31 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <!--css-->
+
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    
 </head>
 
 <body>
+     
     <!--------------SCROLL TOP------------------------>
-  <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-chevrons-up scroll__top__icon'></i>
-    </a>
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevrons-up scroll__top__icon'></i>
+        </a>
 
     <!--------------HEADER------------------------>
     <header class="header" id="header">
-        <!-- NAV -->
+        
         <nav class="nav bd-container">
-            <img src="assets/img/logo001-pqqq.png"
-            alt="Logotipo"/>
+            <img src="assets/img/logo001-pqqq.png" alt="Logotipo"/>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#cardapio" class="nav__link">Cardápio</a></li>
-                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
-                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
-           <!--         <li class="nav__item"><a href="#" class="btn">RESERVA</a></li> -->
+                    <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
+                    <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
                 </ul>
             </div>
 
@@ -47,6 +49,7 @@
     <!-- END HEADER -->
 
     <!--MAIN-->
+
     <main>
         <!--HOME-->
         <section class="home" id="home">
@@ -54,31 +57,17 @@
                 <div class="home__data">
                     <h1 class="home__title">Bem vindo ao<span class="logo"><br>Restaurante Babaçuguará</span></h1><br>
                     <h2 class="home__subtitle">Gosto tanto de comer, que meu lugar preferido é o restaurante Babaçuguará</h2>
-            <!--        <div class="home__btn">
-                        <a href="" class="btn">FAÇA SUA RESERVA</a>
-                        <a href="" class="btn-outline">PEÇA POR DELIVERY</a>
-                    </div>-->
                 </div>
                 <div class="img_home">
-                    <img src="assets/img/rest_p.jpg" alt="salada principal" class="home__img">
-                </div>
-                
+                    <img src="assets/img/rest_p.jpg" alt="Foto principal" class="home__img">
+                </div>   
             </div>
         </section>
         <!-- END HOME -->
         <!--HOME-->
         <section class="cardapio" id="cardapio">
             <div class="home__container bd-container bd-grid">
-                <div class="home__data">
-                    <!--
-                        INICIO
-                    -->
-
-                        <!--INICIO DAS IMAGENS-->
-
-                    
-                    <!-- <h1 class="home__title">Bem vindo ao<span class="logo"><br>Restaurante Babaçuguará</span></h1><br>
-                    <h2 class="home__subtitle">Gosto tanto de comer, que meu lugar preferido é o restaurante Babaçuguará</h2> -->
+                <div class="home__data">     
                     <div class="home__btn">
                         <a href="cardapio.html" class="btn">CARDAPIO</a>
                     </div>
@@ -86,78 +75,52 @@
                 
             </div>
         </section>
-        <!-- DELIVERY -->
-        <!--
-        <section class="delivery" id="delivery">
-            <div class="delivery__container">
-                <div class="delivery__data">
-                    <h1 class="section-title">Delivery</h1>
-                    <h2 class="section-subtitle">Peça nossas saladas e receba no conforto da sua casa</h2>
-                    <a href="#" class="btn">FAÇA SEU PEDIDO</a>
-                </div>
-            </div>
-        </section>
-        -->
-        <!-- END DELIVERY -->
-
-        <!-- CONTATO -->
-        <section class="contato section" id="contato">
-            <h1 class="section-title">Contato</h1>
-            <h2 class="section-subtitle">Estamos ansiosos para atendê-lo</h2>
-            <div class="contato__container bd-container bd-grid">
-           <!--     <div class="contato__data">
-                    <div class="contato__cta">
-                        <h3 class="contato__title">Reserva</h3>
-                        <p>Se você deseja fazer uma resevar em nosso restaurante contate-nos e escolha sua data.</p>
-                        <a href="#" class="btn-outline">FAZER RESERVA</a>
-                    </div>
-                    <div class="contato__cta">
-                        <h3 class="contato__title">Delivery</h3>
-                        <p>Escolha sua refeição para receber em sua casa com todo conforto e trenquilidade.</p>
-                        <a href="#" class="btn-outline">FAZER PEDIDO</a>
-                    </div> 
-                    </div>-->
-                <div class="contato__form">
-                    <h3 class="contato__title">Fale Conosco</h3>
-                    <form class="form-control">
-                        <label for="name">NOME</label>
-                        <input type="text" id="name">
-                        <label for="email">E-MAIL</label>
-                        <input type="email" id="email">
-                        <label for="mensagem">MENSAGEM</label>
-                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
-                        <button class="btn">ENVIAR MENSAGEM</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- END CONTATO -->
+                 <!--------------SLIDE------------------------>
+                 <section class="slideSection">
+                    <div class="slider">
+                        <div class="slides">
+                            <!-- inicio Radio buttons-->
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <!--Fim Radio buttons-->
         
-        <!-- SOBRE -->
-        <section class="about bg-container section" id="sobre">
-            <h1 class="section-title">Conheça um pouco do Restaurante Babaçuguará</h1>
-            <h2 class="section-subtitle">Aqui você encontra o melhor da culinária maranhense</h2>
-            <div class="about__container bd-container bd-grid">
-                <div class="about__chefs">
-                    <div class="chefs">
-                        <img src="assets/img/FrenteComNome.jpg" alt="imagem frente com nome" class="img__chefs">
-                        <span>Frente da praia</span>
+                            <!--Slides imagens-->
+                            <div class="slide first">
+                                <img src="./img/1000071558.jpg" alt="imagem 01">
+                            </div>
+                            <div class="slide">
+                                <img src="./img/1000144653.jpg" alt="imagem 02">
+                            </div>
+                            <div class="slide">
+                                <img src="./img/20210421_125042.jpg" alt="imagem 03">
+                            </div>
+                            <div class="slide">
+                                <img src="./img/20210606_162555.jpg" alt="imagem 04">
+                            </div>
+                            <!--Fim slide imagens-->
+        
+                            <!--navigator auto-->
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>     
+                            </div>
+                            <!--navigator auto-->      
+                            
+                        </div>
+                        <div class="manual-navigation">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label> 
+                        </div>
                     </div>
-<!--
-                    <div class="chefs">
-                        <img src="assets/img/frente_praia_cheia.jpg" alt="Chef George" class="img__chefs">
-                        <span>Praia de Guarapiranguinha</span>
-                    </div>
--->
-                </div>
-                <div class="about__data">
-                    <p class="section-text">O Restaurante Babaçuguará, nasceu de um grande sonho de trabalhar com a culinária maranhense, sonho que começou nos meados de 2004, quando adquirimos um terreno na Praia de Guarapiranguinha, São José de Ribamar.</p>
-                    <p class="section-text">Somente foi fundado no ano de 2021, em frente há uma grande pandemia que se extendia pelo mundo, chamada de COVID-19.</p>
-                    <p class="section-text">Desde a sua fundação o Restaurante Babaçuguará, cada dia vem conquistando sua clientela, com sua história focada em um bom atendimento e respeito ao cliente, e, amor pelo que faz.</p>
-                </div>
-            </div>
-        </section>
-        <!-- END SOBRE -->
+                    
+                </section>
+            <!--------------SLIDE------------------------>
 
         <!-- COMPARTILHAR -->
         <section class="compartilhar">
@@ -170,10 +133,11 @@
                 </div>
             </div>
         </section>
+
         <!-- END COMPARTILHAR -->
     </main>
     <!-- END MAIN -->
-
+ 
     <!-- FOOTER -->
     <footer class="footer section bg-container">
         <div class="footer__container bd-container">
@@ -186,20 +150,6 @@
                <!--     <a href=""><i class='bx bxl-twitter'></i></a> -->
                 </div>
             </div>
-            <!-- 
-            <div class="services">
-                <h3 class="footer__title">Serviços</h3>
-                <a href="" class="footer__subtittle">Reservas</a>
-                <a href="" class="footer__subtittle">Delivery</a>
-            </div>
-        -->
-<!--
-            <div class="info">
-                <h3 class="footer__title">Informações</h3>
-                <a href="" class="footer__subtittle">Política de privacidade</a>
-                <a href="" class="footer__subtittle">Termos de uso</a>
-            </div>
--->
             <div class="addres">
                 <h3 class="footer__title">Endereço</h3>
                 <small class="footer__subtittle">Ilha de São Luis - Maranhão</small>
@@ -213,6 +163,7 @@
     <!-- END FOOTER -->
 
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="assets/js/slide.js"></script>
 </body>
 
 </html>

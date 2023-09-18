@@ -241,8 +241,6 @@ img {
         
     }
 
-
-
     .nav__menu .nav__item {
         margin-bottom: var(--mb-2);
         
@@ -433,107 +431,6 @@ img {
     line-height: 32px;
 }
 
-/*---------- CARDAPIO------------*/
-/*figura do carro na imagem da comida*/
-.cardapio__container {
-    padding: 1rem 1rem;
-    margin-top: var(--mb-2);
-    
-}
-
-
-.card {
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 0 4px 4px rgba(251, 1, 1, 0.768);
-    margin-top: var(--mb-5);
-   
-    transition: 0.4s;
-    
-}
-
-.card:hover {
-    transform: scale(1.3);
-}
-
-.card img {
-    border-radius: 8px 8px 0 0;
-    height: 150px;
-    
-}
-
-.card__data {
-    height: 6.5rem;
-    
-}
-
-.card__data h3 {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-    margin-top: var(--mb-1);
-    margin-left: var(--mb-1);
-    color: #ffa500;
-    height: 60px;
-}
-
-.card__data .card__descripition {
-    margin-left: var(--mb-1);
-    margin-top: var(--mb-1);
-
-}
-
-
-.card__data small {
-    font-weight: var(--font-light);
-    font-size: var(--normal-font-size);
-    margin-top: var(--mb-1);
-    margin-bottom: var(--mb-1);
-       
-}
-
-.card__preci {
-    margin-top: var(--mb-7);
-    text-align-last: center;
-    background-color: red;
-}
-
-
-.card__preci span {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    position: relative;
-    left: 1rem;
-    bottom: 0rem;
-    /*border: 5px solid #f90707;*/
-}
-
-.card__cart {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    font-size: 1.6rem;
-    color: var(--light-color);
-    background-color: var(--first-color);
-    border-radius: 6px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.card__cart:hover {
-    background-color: var(--first-color_alt);
-
-}
-
-.bx {
-    border: 1px solid #fe0703;
-    width: 10%;
-    height: 10%;
-}
 
 /*----------DELIVERY-----------*/
 
@@ -875,3 +772,4 @@ textarea {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
