@@ -1,91 +1,175 @@
-.cardapio__container > div{
-    float: left;
+/*---------- CARDAPIO------------*/
+/*figura do carro na imagem da comida*/
+.cardapio__container {
+    padding: 1rem 1rem;
+    margin-top: var(--mb-6);
+    
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(251, 1, 1, 0.768);
+    margin-top: var(--mb-5);
+    transition: 0.4s;
+    background-color: #e23a3a57;
+    
+}
+
+/* .card:hover {
+    transform: scale(1.1);
+} */
+
+.card img {
+    border-radius: 8px 8px 0 0;
+    height: 250px;
+}
+.card__img{
+    align-items: center;
+    text-align: center;
+}
+.card__data {
+    height: 6.5rem;
+    
+}
+
+.card__data h3 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    /* margin-top: var(--mb-1);
+    margin-left: var(--mb-1); */
+    color: #ffa500;
+    height: 60px;
+    background: #e20d09b0;
     width: 100%;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.card__data .card__descripition {
+    margin-left: var(--mb-1);
+    margin-top: var(--mb-1);
+    padding: 0px;
+
+}
+
+
+.card__data small {
+    font-weight: var(--font-light);
+    font-size: var(--normal-font-size);
+    margin-top: var(--mb-1);
+    margin-bottom: var(--mb-1);
+       
+}
+
+.card__preci {
+    margin-top: var(--mb-7);
+    text-align-last: center;
+    background-color:  #fe0703d5;;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.card__preci span {
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    /* position: relative; */
+    left: 1rem;
+    bottom: 0rem;
+    color: #ffa500;
+
+    /* border: 5px solid #f90707; */
+}
+
+/* .card__cart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    background-color: var(--first-color);
+    border-radius: 6px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+} */
+
+.card__cart:hover {
+    background-color: var(--first-color_alt);
+
+}
+
+.bx {
+    border: 1px solid #fe0703;
+    width: 10%;
+    height: 10%;
+}
+
+/*Amuentar fotos*/
+ 
+#galeria > div{
+    float: left;
+    width: 33%;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.card__data{
-    display: flex;
-}
-.card img {
-    width: 30%;
-    display: block;
-    /* position: relative; */
-}
-.card {
-    height: 100%;
-}
-
-/* .cardfoto{
+/* .card img{
     width: 100%;
-    display: flex;
-    background-color: aqua;
-    position: relative;
-}
-
- .cardfoto{
-    display: none;
-    background-color: rgb(244, 12, 12);
-    color: #000;
-    font-size: 0.5rem;
-    margin-right: 10px;
-    padding: 0px;
-    width: 30px;
-    height:60px;
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
-    text-align: center;
-    justify-content: center; 
+     display: block;
 
 } */
 
-.card__img {
-    text-align: right;
-    padding: 0;
-    grid-template-columns: repeat(4, 1fr);
 
-}
-.card__descripition{
-    /* display: none; */
-    margin-right: 10px;
-}
-
-
-.quant_h{
-    padding: 0px;
-    background-color: #000;
-    color: #fff;
-    width: 15px;
-    height: 30px;
-    border-radius: 10px;
-    justify-content: center;
-    
-}
+/* .card__descripition {
+    display: none;
+} */
 .fechar{
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
     display: none;
 }
-
-/* AUMENTAR A FOTO*/
-.cardapio__container .card:target{
+.pessoas {
+    width: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: none;
+    padding: 3px;
+    bottom: 237px;
+    font-size: 10px;
+    right: 5px;
     position: fixed;
-    width: 80%;
-    top: 15px;
-    left: 5%;
+}
+
+.card:target{
+    position: fixed;
+    width: 100%;
+    top: 25px;
+    left: 25px;
     padding: 10px;
     border: solid 1px #333;
-    box-shadow: 0 0 25px 10px #000;
-    background: #fff;
+    box-shadow: 0 0 25px #000;
+    background-color: #fff;
     border-radius: 5px;
 }
- .card:target .card__descripition{
+.card:target .card__descripition{
     display: block;
-} 
+}
 .card:target .fechar{
     display: block;
-} 
- 
-.card:target .quant{
+}
+.card:target .pessoas{
     display: block;
-} 
+}
