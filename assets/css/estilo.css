@@ -55,7 +55,7 @@ a:hover {
 
 #header {
   box-sizing: border-box;
-  height: 100p%;
+  height: 100%;
   padding: 1rem;
   display: flex;
   align-items: center;
