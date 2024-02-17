@@ -151,7 +151,7 @@
 
 .pessoas {
     width: 60px;
-    height: 50px;
+    height: 70px;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
@@ -159,7 +159,7 @@
     align-items: center;
     display: none;
     padding: 1px;
-    top: 500px;
+    top: 495px;
     font-size: 10px;
     right: 10px;
     position: fixed;
