@@ -1,1217 +1,1302 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
-    <link rel="shortcut icon" href="assets/img/logo001-pqqq.png" type="image/x-icon">
-    <!--BoxIcons-->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cardápio</title>
+        <link rel="shortcut icon" href="assets/img/logo001-pqqq.png"
+            type="image/x-icon">
+        <!--BoxIcons-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'
+            rel='stylesheet'>
 
-    <!--css-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/cardapio.css">
-</head>
-<body>
-      <!--------------SCROLL TOP------------------------>
-    <!-- <a href="#" class="scrolltop" id="scroll-top">
+        <!--css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/cardapio.css">
+    </head>
+    <body>
+        <!--------------SCROLL TOP------------------------>
+        <!-- <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-chevrons-up scroll__top__icon'></i>
     </a> -->
 
+        <!--------------HEADER------------------------>
+        <header class="header" id="header">
+            <!-- NAV -->
+            <nav class="nav bd-container">
+                <img src="assets/img/logo001-pqqq.png"
+                    alt="Logotipo" />
 
-<!--------------HEADER------------------------>
-    <header class="header" id="header">
-        <!-- NAV -->
-        <nav class="nav bd-container">
-            <img src="assets/img/logo001-pqqq.png"
-            alt="Logotipo"/>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html"
+                                class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="cardapio.html"
+                                class="nav__link">Cardápio</a></li>
+                        <li class="nav__item"><a href="contato.html"
+                                class="nav__link">Contato</a></li>
+                        <li class="nav__item"><a href="sobre.html"
+                                class="nav__link">Sobre</a></li>
+                        <!--         <li class="nav__item"><a href="#" class="btn">RESERVA</a></li> -->
+                    </ul>
+                </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="cardapio.html" class="nav__link">Cardápio</a></li>
-                    <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
-                    <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
-        <!--         <li class="nav__item"><a href="#" class="btn">RESERVA</a></li> -->
-                </ul>
+                <!--MENU TOGGLE / MENU TELA PEQUENA-->
+                <div class="nav__toggle">
+                    <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+                </div>
+                <!-- END MENU TOGGLE -->
+            </nav>
+            <!-- END NAV -->
+        </header>
+
+        <!-- END HEADER -->
+        <h1 class="section-title">Cardápio</h1>
+        <!-- INICIO CARDÁPIO REFEIÇÕES -->
+        <section class="cardapio_section" id="cardapio">
+            <h2 class="section-subtitle">REFEIÇÕES</h2>
+            <div class="button_voltar">
+                <a href="index.html"><button class="botao">Voltar a página
+                        anterior</button></a>
             </div>
+            <div class="cardapio__container bd-container bd-grid">
+                <div class="card" id="fotoc001">
+                    <a href="#fotoc001">
+                        <div class="card__img">
+                            <img src="assets/img/pratos/peixada_ma.jpg"
+                                alt="Peixada Maranhense">
+                        </div>
 
-            <!--MENU TOGGLE / MENU TELA PEQUENA-->
-            <div class="nav__toggle">
-                <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+                        <div class="card__data">
+                            <h3>Peixada Maranhense G</h3>
+                            <div class="card__descripition">
+                                <small>800g de pescada amarela cozida no leite
+                                    de coco, arroz branco, ovos e pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 130,00</span>
+                        </div>
+                        <div class="fechar_div">
+                            <button class="fechar">
+                                <a href="#fechar">Fechar</a>
+                            </button>
+                        </div>
+
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc002">
+                    <a href="#fotoc002">
+                        <div class="card__img">
+                            <img src="assets/img/peixada002.jpg"
+                                alt="Peixada Maranhese meia">
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Maranhense M</h3>
+                            <div class="card__descripition">
+                                <small>400g de pescada amarela cozida no leite
+                                    de coco, arroz branco, ovos e pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc003">
+                    <a href="#fotoc003">
+                        <img src="assets/img/pratos/peixada_ma_mista.jpg"
+                            alt="Peixada mista G">
+                        <div class="card__img">
+
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Mista G</h3>
+                            <div class="card__descripition">
+                                <small>600g de pescada amarela cozida no leite
+                                    de coco, 200g de camarão arroz branco, ovos
+                                    e pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 140,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc004">
+                    <a href="#fotoc004">
+                        <img src="assets/img/pratos/peixada_ma_mista.jpg"
+                            alt="Salada Green">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Peixada Mista M</h3>
+                            <div class="card__descripition">
+                                <small>300g de pescada amarela cozida no leite
+                                    de coco, 100g de camarão arroz branco, ovos
+                                    e pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 90,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc005">
+                    <a href="#fotoc005">
+                        <img src="assets/img/pratos/pescada-amarela-frita.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Frita G</h3>
+                            <div class="card__descripition">
+                                <small>800g de pescada amarela frita, arroz
+                                    branco, farofa e vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 120,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc006">
+                    <a href="#fotoc006">
+                        <img src="assets/img/pratos/pescada-amarela-frita.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Frita M</h3>
+                            <div class="card__descripition">
+                                <small>400g de pescada amarela frita, arroz
+                                    branco, farofa e vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc007">
+                    <a href="#fotoc007">
+                        <img src="assets/img/pratos/pescada_escabeche.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Escabeche G</h3>
+                            <div class="card__descripition">
+                                <small>800g de pescada amarela frita ao molho,
+                                    arroz branco, farofa e vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+
+                        <div class="card__preci">
+                            <span>R$ 130,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc008">
+                    <a href="#fotoc008">
+                        <img src="assets/img/pratos/pescada_escabeche.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Escabeche M</h3>
+                            <div class="card__descripition">
+                                <small>400g de pescada amarela frita ao molho,
+                                    arroz branco, farofa e vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc009">
+                    <a href="#fotoc009">
+                        <img src="assets/img/pratos/camaroada.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camaroada</h3>
+                            <div class="card__descripition">
+                                <small>600g de camarão, arroz branco, ovos e
+                                    pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 130,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc010">
+                    <a href="#fotoc010">
+                        <img src="assets/img/pratos/camaroada.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camaroada</h3>
+                            <div class="card__descripition">
+                                <small>300g de camarão, arroz branco, ovos e
+                                    pirão<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc011">
+                    <a href="#fotoc011">
+                        <img src="assets/img/pratos/carne_de_sol.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Carne de Sol</h3>
+                            <div class="card__descripition">
+                                <small>600g de carne de sol, batata, arroz
+                                    branco, farofa e vingrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 130,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc012">
+                    <a href="#fotoc012">
+                        <img src="assets/img/pratos/carne_de_sol.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Carne de Sol</h3>
+                            <div class="card__descripition">
+                                <small>300g de carne de sol, batata, arroz
+                                    branco, farofa e vingrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 2 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotoc013">
+                    <a href="#fotoc013">
+                        <img src="assets/img/pratos/galinha001.jpg"
+                            alt="Galinha Caipira">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Galinha Caipira</h3>
+                            <div class="card__descripition">
+                                <small>Galinha caipira, arroz branco, pirão,
+                                    macarrão e salada<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 150,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 04 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
             </div>
-            <!-- END MENU TOGGLE -->
-        </nav>
-        <!-- END NAV -->
-    </header>
+        </section>
+        <!--FIM CARDAPIO REFEIÇÕES-->
 
-    <!-- END HEADER -->
-    <h1 class="section-title">Cardápio</h1>
-    <!-- INICIO CARDÁPIO REFEIÇÕES -->
-    <section class="cardapio_section" id="cardapio">
-        <h2 class="section-subtitle">REFEIÇÕES</h2>  
-        <div class="button_voltar">
-            <a href="index.html"><button class="botao">Voltar a página anterior</button></a>
-        </div>
-        <div class="cardapio__container bd-container bd-grid">                
-            <div class="card" id="fotoc001">
-                <a href="#fotoc001">
-                    <div class="card__img">   
-                        <img src="assets/img/pratos/peixada_ma.jpg" alt="Peixada Maranhense">    
-                    </div>
+        <!--INICIO CARDÁPIO DE PETISCOS / ENTRADAS-->
+        <section class="cardapio_section" id="cardapio">
+            <h2 class="section-subtitle">PESTISCOS / ENTRADAS</h2>
+            <div class="cardapio__container bd-container bd-grid">
 
-                    <div class="card__data">
-                        <h3>Peixada Maranhense G</h3>
-                        <div class="card__descripition">
-                            <small>800g de pescada amarela cozida no leite de coco, arroz branco, ovos e pirão.</small>
-                        </div> 
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 130,00</span>
-                    </div>
-                    <div class="fechar_div">
-                        <button  class="fechar">
-                            <a href="#fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
+                <div class="card" id="fotop001">
+                    <a href="#fotop001">
+                        <img src="assets/img/pratos/bisteca_suina-225.jpg"
+                            alt="Bisteca Suina">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bisteca de Porco</h3>
+                            <div class="card__descripition">
+                                <small>Bisteca suína, batata, farofa e
+                                    vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 40,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
 
-                    <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>  
+                <div class="card" id="fotop002">
+                    <a href="#fotop002">
+                        <img src="assets/img/pratos/batata-225.jpg"
+                            alt="Batata Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Batata Frita</h3>
+                            <div class="card__descripition">
+                                <small>300g de batata frita<span>...</span></small>
+                            </div>
+                        </div>
+
+                        <div class="card__preci">
+                            <span>R$ 20,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotop003">
+                    <a href="#fotop003">
+                        <img src="assets/img/pratos/batata-225.jpg"
+                            alt="Batata Frita'">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Batata Frita</h3>
+                            <div class="card__descripition">
+                                <small>200g de batata frita<span>...</span></small>
+                            </div>
+                        </div>
+
+                        <div class="card__preci">
+                            <span>R$ 15,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 01 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotop004">
+                    <a href="#fotop004">
+                        <img src="assets/img/pratos/camarao_alho_e_oleo-225.jpg"
+                            alt="Camarão ao alho">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+
+                            <h3>Camarão ao alho e óleo</h3>
+                            <div class="card__descripition">
+                                <small>300g de camarão, acompanha farofa e
+                                    vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotop005">
+                    <a href="#fotop005">
+                        <img src="assets/img/peixe_frito.jpg"
+                            alt="Pescada Frita">
+                        <div class="card__img">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pescada Frita</h3>
+                            <div class="card__descripition">
+                                <small>300g de pescada amarela frita, farofa e
+                                    vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotop006">
+                    <a href="#fotop006">
+                        <div class="card__img">
+                            <img src="assets/img/pratos/carne_de_sol-225.jpg"
+                                alt="Pescada Frita">
+                        </div>
+                        <div class="card__data">
+                            <h3>Carne de Sol</h3>
+                            <div class="card__descripition">
+                                <small>300g de carne de sol, farofa e
+                                    vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 50,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
+
+                <div class="card" id="fotop007">
+                    <a href="#fotop007">
+                        <div class="card__img">
+                            <img src="assets/img/pratos/calabresa-225.jpg"
+                                alt="Pescada Frita">
+                        </div>
+                        <div class="card__data">
+                            <h3>Calabresa acebolada</h3>
+                            <div class="card__descripition">
+                                <small>300g de Calabresa, farofa e
+                                    vinagrete<span>...</span></small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 35,00</span>
+                        </div>
+                        <div class="fechar">
+                            <button>
+                                <a href="#fechar" class="fechar">Fechar</a>
+                            </button>
+                        </div>
+                        <div class="pessoas">
+                            <span>Serve 02 Pessoas</span>
+                        </div>
+                        <!-- <i class='bx bxs-cart card__cart'></i> -->
+                    </a>
+                </div>
             </div>
-                
-            <div class="card" id="fotoc002">
-                <a href="#fotoc002">
+        </section>
+
+        <!--FIM CARDAPIO PETISCOS-->
+
+        <!--INICIO CARDAPIO BEBIDAS-->
+        <section class="cardapio_section" id="cardapio">
+            <h2 class="section-subtitle">CERVEJAS</h2>
+            <h3 class="section-subtitle2">CERVEJAS 600ml</h3>
+            <div class="cardapio__container bd-container bd-grid">
+                <div class="card">
                     <div class="card__img">
-                        <img src="assets/img/peixada002.jpg" alt="Peixada Maranhese meia">
+                        <img src="assets/img/heineken_600ml_225.jpg"
+                            alt="Heineken 600">
                     </div>
                     <div class="card__data">
-                        <h3>Peixada Maranhense M</h3>
-                        <div class="card__descripition">
-                            <small>400g de pescada amarela cozida no leite de coco, arroz branco, ovos e pirão.</small>
-                        </div>
+                        <h3>Heineken</h3>
                     </div>
-                    <div class="card__preci">
-                        <span>R$ 80,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                    <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
 
-            <div class="card" id="fotoc003">
-                <a href="#fotoc003">
-                    <img src="assets/img/pratos/peixada_ma_mista.jpg" alt="Peixada mista G">
-                    <div class="card__img">
-
-                    </div>
-                    <div class="card__data">                        
-                        <h3>Peixada Mista G</h3>
-                        <div class="card__descripition">
-                            <small>600g de pescada amarela cozida no leite de coco, 200g de camarão arroz branco, ovos e pirão.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 140,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
-                    <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc004">
-                <a href="#fotoc004">
-                    <img src="assets/img/pratos/peixada_ma_mista.jpg" alt="Salada Green">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">   
-                        <h3>Peixada Mista M</h3>
-                        <div class="card__descripition">
-                            <small>300g de pescada amarela cozida no leite de coco, 100g de camarão arroz branco, ovos e pirão.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 90,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                    <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc005">
-                <a href="#fotoc005">
-                    <img src="assets/img/pratos/pescada-amarela-frita.jpg" alt="Pescada Frita">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Pescada Frita G</h3>
-                        <div class="card__descripition">
-                            <small>800g de pescada amarela frita, arroz branco, farofa e vinagrete</small>
-                        </div> 
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 120,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>          
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc006">
-                <a href="#fotoc006">
-                    <img src="assets/img/pratos/pescada-amarela-frita.jpg" alt="Pescada Frita">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Pescada Frita M</h3>
-                        <div class="card__descripition">
-                            <small>400g de pescada amarela frita, arroz branco, farofa e vinagrete</small>
-                        </div> 
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 70,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>          
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc007">
-                <a href="#fotoc007">
-                    <img src="assets/img/pratos/pescada_escabeche.jpg" alt="Pescada Frita">
-                    <div class="card__img">                  
-                    </div>
-                    <div class="card__data">
-                        <h3>Pescada Escabeche G</h3>
-                        <div class="card__descripition">
-                            <small>800g de pescada amarela frita ao molho, arroz branco, farofa e vinagrete.</small>
-                        </div>
-                    </div>
-                    
-                    <div class="card__preci">
-                        <span>R$ 130,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc008">
-                <a href="#fotoc008">
-                    <img src="assets/img/pratos/pescada_escabeche.jpg" alt="Pescada Frita">
-                    <div class="card__img">                  
-                    </div>
-                    <div class="card__data">
-                        <h3>Pescada Escabeche M</h3>
-                        <div class="card__descripition">
-                            <small>400g de pescada amarela frita ao molho, arroz branco, farofa e vinagrete.</small>
-                        </div>
-                    </div>
-                    
-                    <div class="card__preci">
-                        <span>R$ 80,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-            
-            <div class="card" id="fotoc009">
-                <a href="#fotoc009">
-                    <img src="assets/img/pratos/camaroada.jpg" alt="Pescada Frita">
-                    <div class="card__img">                   
-                    </div>
-                    <div class="card__data">
-                        <h3>Camaroada</h3>
-                        <div class="card__descripition">
-                            <small>600g de camarão, arroz branco, ovos e pirão.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 130,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc010">
-                <a href="#fotoc010">
-                    <img src="assets/img/pratos/camaroada.jpg" alt="Pescada Frita">
-                    <div class="card__img">                   
-                    </div>
-                    <div class="card__data">
-                        <h3>Camaroada</h3>
-                        <div class="card__descripition">
-                            <small>300g de camarão, arroz branco, ovos e pirão.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 80,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc011">
-                <a href="#fotoc011">
-                    <img src="assets/img/pratos/carne_de_sol.jpg" alt="Pescada Frita"> 
-                    <div class="card__img">              
-                    </div>
-                    <div class="card__data">
-                        <h3>Carne de Sol</h3>
-                        <div class="card__descripition">
-                            <small>600g de carne de sol, batata, arroz branco, farofa e vingrete.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 130,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotoc012">
-                <a href="#fotoc012">
-                    <img src="assets/img/pratos/carne_de_sol.jpg" alt="Pescada Frita"> 
-                    <div class="card__img">              
-                    </div>
-                    <div class="card__data">
-                        <h3>Carne de Sol</h3>
-                        <div class="card__descripition">
-                            <small>300g de carne de sol, batata, arroz branco, farofa e vingrete.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 70,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 2 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-            
-            <div class="card" id="fotoc013">
-                <a href="#fotoc013">
-                    <img src="assets/img/pratos/galinha001.jpg" alt="Galinha Caipira">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Galinha Caipira</h3>
-                        <div class="card__descripition">
-                            <small>Galinha caipira, arroz branco, pirão, macarrão e salada.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 150,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 04 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-        </div>
-    </section>
-<!--FIM CARDAPIO REFEIÇÕES-->
-
-<!--INICIO CARDÁPIO DE PETISCOS / ENTRADAS-->
-    <section class="cardapio_section" id="cardapio">
-        <h2 class="section-subtitle">PESTISCOS / ENTRADAS</h2>
-        <div class="cardapio__container bd-container bd-grid">
-            
-            <div class="card" id="fotop001"> 
-                <a href="#fotop001">
-                    <img src="assets/img/pratos/bisteca_suina-225.jpg" alt="Bisteca Suina">   
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Bisteca de Porco</h3>
-                        <div class="card__descripition">
-                            <small>Bisteca suína, batata, farofa e vinagrete.</small>
-                        </div>
-                    </div>
-                    <div class="card__preci">
-                        <span>R$ 40,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotop002">
-                <a href="#fotop002">
-                    <img src="assets/img/pratos/batata-225.jpg" alt="Batata Frita">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Batata Frita</h3>
-                        <div class="card__descripition">
-                            <small>300g de batata frita.</small>
-                        </div>
-                    </div>
-                    
-                    <div class="card__preci">
-                        <span>R$ 20,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-
-            <div class="card" id="fotop003">
-                <a href="#fotop003">
-                    <img src="assets/img/pratos/batata-225.jpg" alt="Batata Frita'">
-                    <div class="card__img">
-                    </div>
-                    <div class="card__data">
-                        <h3>Batata Frita</h3>
-                        <div class="card__descripition">
-                            <small>200g de batata frita.</small>
-                        </div>
-                    </div>
-                    
                     <div class="card__preci">
                         <span>R$ 15,00</span>
                     </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 01 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
+                    <!-- <i class='bx bxs-cart card__cart'></i> -->
+                </div>
 
-            <div class="card" id="fotop004">
-                <a href="#fotop004">
-                    <img src="assets/img/pratos/camarao_alho_e_oleo-225.jpg" alt="Camarão ao alho">
+                <div class="card">
                     <div class="card__img">
+                        <img src="assets/img/STELLA-600ML_225.jpg"
+                            alt="Stella 600">
                     </div>
                     <div class="card__data">
-                        
-                        <h3>Camarão ao alho e óleo</h3>
-                        <div class="card__descripition">
-                            <small>300g de camarão, acompanha farofa e vinagrete</small>
-                        </div>
-                    </div>   
+                        <h3>Stella</h3>
+                    </div>
                     <div class="card__preci">
-                        <span>R$ 50,00</span>
+                        <span>R$ 13,00</span>
                     </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
+                    <!-- <i class='bx bxs-cart card__cart'></i> -->
+                </div>
 
-            <div class="card" id="fotop005">
-                <a href="#fotop005">
-                    <img src="assets/img/peixe_frito.jpg" alt="Pescada Frita">
+                <div class="card">
                     <div class="card__img">
+                        <img src="assets/img/spaten600.jpg" alt="Stella 600">
                     </div>
                     <div class="card__data">
-                        <h3>Pescada Frita</h3>
-                        <div class="card__descripition">
-                            <small>300g de pescada amarela frita, farofa e vinagrete.</small>
-                        </div>
-                    </div>  
-                    <div class="card__preci">
-                        <span>R$ 50,00</span>
-                    </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
-            
-            <div class="card" id="fotop006">
-                <a href="#fotop006">
-                    <div class="card__img">               
-                        <img src="assets/img/pratos/carne_de_sol-225.jpg" alt="Pescada Frita">
-                    </div>
-                    <div class="card__data">
-                        <h3>Carne de Sol</h3>
-                        <div class="card__descripition">
-                            <small>300g de carne de sol, farofa e vinagrete.</small>
-                        </div>
+                        <h3>Stella</h3>
                     </div>
                     <div class="card__preci">
-                        <span>R$ 50,00</span>
+                        <span>R$ 12,00</span>
                     </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>
+                    <!-- <i class='bx bxs-cart card__cart'></i> -->
+                </div>
 
-            <div class="card" id="fotop007">
-                <a href="#fotop007">
+                <div class="card">
                     <div class="card__img">
-                        <img src="assets/img/pratos/calabresa-225.jpg" alt="Pescada Frita">
+                        <img src="assets/img/budweiser600.jpg"
+                            alt=" budweiser 600">
                     </div>
                     <div class="card__data">
-                        <h3>Calabresa acebolada</h3>
-                        <div class="card__descripition">
-                            <small>300g de Calabresa, farofa e vinagrete.</small>
-                        </div>
+                        <h3>Budweiser</h3>
                     </div>
                     <div class="card__preci">
-                        <span>R$ 35,00</span>
+                        <span>R$ 10,00</span>
                     </div>
-                    <div class="fechar">
-                        <button>
-                            <a href="#fechar" class="fechar">Fechar</a>
-                        </button>   
-                    </div>      
-                    <div class="pessoas">
-                        <span>Serve 02 Pessoas</span>
-                    </div>      
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-                </a>
-            </div>         
+                    <!-- <i class='bx bxs-cart card__cart'></i> -->
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Brahma Chopp.jpg" alt="Brahma 600">
+                    </div>
+                    <div class="card__data">
+                        <h3>Brahma Chopp/Malte</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                    <!-- <i class='bx bxs-cart card__cart'></i> -->
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/skol_600ml_225.png"
+                            alt="Salada Green">
+                    </div>
+                    <div class="card__data">
+                        <h3>Skol Pilsen</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/skol_puro_malte_600ml_225.png"
+                            alt="Skol Malte">
+                    </div>
+                    <div class="card__data">
+                        <h3>Skol Puro Malte</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Amstel_600ml_225.jpg"
+                            alt="Pescada Frita">
+                    </div>
+                    <div class="card__data">
+                        <h3>Amstel</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Devassa-600ml-225.jpg"
+                            alt="Pescada Frita">
+                    </div>
+                    <div class="card__data">
+                        <h3>Devassa</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 8,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Glacial-600ml-225.jpg"
+                            alt="Pescada Frita">
+                    </div>
+                    <div class="card__data">
+                        <h3>Glacial</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 6,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--FINAL DOS TITULOS DAS CERVEJAS-->
+            <h3 class="section-subtitle2">CERVEJAS LONG NECK 330ml</h3>
+            <div class="cardapio__container bd-container bd-grid">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/heineken-long-neck-330ml-225.jpg"
+                            alt="Heineken long neck">
+                    </div>
+                    <div class="card__data">
+                        <h3>Heineken</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/stella-330ml.jpeg"
+                            alt="Stella 330">
+                    </div>
+                    <div class="card__data">
+                        <h3>Stella</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 8,00</span>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/spaten_png_225.png"
+                            alt="Spaten long neck">
+                    </div>
+                    <div class="card__data">
+                        <h3>Spaten</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 7,50</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--INICIO TITULOS DAS CERVEJAS 350ml-->
+
+            <h3 class="section-subtitle2">CERVEJAS LATA 350ml</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/skol-lata-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Skol</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/amstel-lata-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Amstel</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/devassa-lata-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Devassa</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 4,50</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/glacial-lata-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Glacial</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 4,00</span>
+                    </div>
+                </div>
+            </div>
+            <!--FINAL DAS CERVEJAS LATA 350ML-->
+        </section>
+
+        <!--INICIO TITULOS DOS REFRIGERANTES-->
+        <section class="cardapio_section" id="cardapio">
+            <h2 class="section-subtitle">REFRIGERANTES</h2>
+            <h3 class="section-subtitle2">Refrigerantes 2l</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/coca-cocal-2l-225.jpg"
+                            alt="Coca-cola">
+                    </div>
+                    <div class="card__data">
+                        <h3>Coca-Cola</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 13,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/jesus-2l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Guaraná Jesus</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 13,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/fanta-2l-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Fanta</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 10,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/guarana-2l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Guaraná Antártica</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 10,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--INICIO REFRIGERANTES 1,5L-->
+            <h3 class="section-subtitle2">REFRIGERANTE 1,5 LITRO</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/coca-cola-1l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Coca-Cola</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 10,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Jesus-1-L-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Jesus</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 10,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/fanta-1l-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Fanta</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 9,50</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/guarana-antarctica-1l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Guaraná Antartica</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--INICIO REFRIGERANTES 1L-->
+            <h3 class="section-subtitle2">REFRIGERANTE 1 LITRO</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/coca-cocal-2l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Coca-Cola</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/Jesus-1-L-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Jesus</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 9,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/fanta-1l-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Fanta</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 8,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/guarana-antarctica-1l-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Guaraná Antartica</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 8,00</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--INICIO REFRIGERANTES LATA 350ML-->
+            <h3 class="section-subtitle2">REFRIGERANTE LATA 350ml</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/coca-cola-lata-350ml-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Coca-Cola</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/jesus-lata350-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Jesus</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/fanta-laranja-lata-350ml-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Fanta</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/guarana-antartica-lata-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Guaraná Antartica</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 5,00</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--INICIO REFRIGERANTES LATA 350ML-->
+            <h3 class="section-subtitle2">ENERGÉTICO / DRINKS</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/red-bull-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Red Bull</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 12,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/TNT-lata-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>TNT</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 10,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--INICIO SUCOS E ÁGUA-->
+            <h3 class="section-subtitle2">SUCOS E ÁGUA</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/agua_225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Água sem gás</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 3,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/agua_225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Água com gás</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 4,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/agua-de-coco-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Água de coco</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 4,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/agua-coco-jarra-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Água de coco jarra 1 litro</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 22,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--INICIO SUCOS E ÁGUA-->
+            <h3 class="section-subtitle2">OUTRAS BEBIDAS</h3>
+            <div class="cardapio__container bd-container bd-grid">
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/vinho-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Vinho Gaúcho</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 12,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/sao-joao-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>São João dos Barra</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 25,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/caninha-da-roca-225.jpg"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Caninha da Roça</h3>
+                    </div>
+
+                    <div class="card__preci">
+                        <span>R$ 8,00</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="assets/img/caninha-da-roca-500ml-225.png"
+                            alt="Galinha Caipira">
+                    </div>
+                    <div class="card__data">
+                        <h3>Caninha 500ml</h3>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 6,00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="button_voltar">
+            <a href="index.html"><button class="botao">Voltar a página
+                    anterior</button></a>
         </div>
-    </section>
-
-<!--FIM CARDAPIO PETISCOS-->
-
-
-<!--INICIO CARDAPIO BEBIDAS-->
-    <section class="cardapio_section" id="cardapio">
-        <h2 class="section-subtitle">CERVEJAS</h2>
-        <h3 class="section-subtitle2">CERVEJAS 600ml</h3>
-        <div class="cardapio__container bd-container bd-grid">
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/heineken_600ml_225.jpg" alt="Heineken 600">
-                </div>
-                <div class="card__data">
-                    <h3>Heineken</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 15,00</span>
-                </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/STELLA-600ML_225.jpg" alt="Stella 600">
-                </div>
-                <div class="card__data">
-                    <h3>Stella</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 13,00</span>
-                </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/spaten600.jpg" alt="Stella 600">
-                </div>
-                <div class="card__data">
-                    <h3>Stella</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 12,00</span>
-                </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/budweiser600.jpg" alt=" budweiser 600">
-                </div>
-                <div class="card__data">
-                    <h3>Budweiser</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 10,00</span>
-                </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Brahma Chopp.jpg" alt="Brahma 600">
-                </div>
-                <div class="card__data">
-                    <h3>Brahma Chopp/Malte</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-                <!-- <i class='bx bxs-cart card__cart'></i> -->
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/skol_600ml_225.png" alt="Salada Green">
-                </div>
-                <div class="card__data">
-                    <h3>Skol Pilsen</h3>
-                </div>
-            
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/skol_puro_malte_600ml_225.png" alt="Skol Malte">
-                </div>
-                <div class="card__data">
-                    <h3>Skol Puro Malte</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Amstel_600ml_225.jpg" alt="Pescada Frita">
-                </div>
-                <div class="card__data">
-                    <h3>Amstel</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Devassa-600ml-225.jpg" alt="Pescada Frita">
-                </div>
-                <div class="card__data">   
-                    <h3>Devassa</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 8,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Glacial-600ml-225.jpg" alt="Pescada Frita">
-                </div>
-                <div class="card__data">
-                    <h3>Glacial</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 6,00</span>
-                </div>
-            </div>
-        </div>
-
-<!--FINAL DOS TITULOS DAS CERVEJAS-->
-        <h3 class="section-subtitle2">CERVEJAS LONG NECK 330ml</h3>
-        <div class="cardapio__container bd-container bd-grid">
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/heineken-long-neck-330ml-225.jpg" alt="Heineken long neck">
-                </div>
-                <div class="card__data">
-                    <h3>Heineken</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/stella-330ml.jpeg" alt="Stella 330">
-                </div>
-                <div class="card__data">
-                    <h3>Stella</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 8,00</span>
-                </div>
-
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/spaten_png_225.png" alt="Spaten long neck">
-                </div>
-                <div class="card__data">
-                    <h3>Spaten</h3>
-                </div>
-                <div class="card__preci">
-                    <span>R$ 7,50</span>
-                </div>
-            </div>
-        </div>
-        
-<!--INICIO TITULOS DAS CERVEJAS 350ml-->
-        
-        <h3 class="section-subtitle2">CERVEJAS LATA 350ml</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/skol-lata-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Skol</h3>
-                </div>
-                 
-                <div class="card__preci">
-                     <span>R$ 5,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/amstel-lata-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Amstel</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 5,00</span>
-                </div>
-
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/devassa-lata-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Devassa</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 4,50</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/glacial-lata-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Glacial</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 4,00</span>
-                </div>
-            </div>
-        </div>
-<!--FINAL DAS CERVEJAS LATA 350ML-->
-    </section>
-
-<!--INICIO TITULOS DOS REFRIGERANTES-->
-    <section class="cardapio_section" id="cardapio">
-        <h2 class="section-subtitle">REFRIGERANTES</h2>
-        <h3 class="section-subtitle2">Refrigerantes 2l</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/coca-cocal-2l-225.jpg" alt="Coca-cola">
-                </div>
-                <div class="card__data">
-                    <h3>Coca-Cola</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 13,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-               <div class="card__img">
-                   <img src="assets/img/jesus-2l-225.jpg" alt="Galinha Caipira">
-               </div>
-               <div class="card__data">
-                   <h3>Guaraná Jesus</h3>
-               </div>
-               
-               <div class="card__preci">
-                   <span>R$ 13,00</span>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card__img">
-                   <img src="assets/img/fanta-2l-225.png" alt="Galinha Caipira">
-               </div>
-               <div class="card__data">
-                   <h3>Fanta</h3>
-               </div>
-               
-               <div class="card__preci">
-                   <span>R$ 10,00</span>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card__img">
-                   <img src="assets/img/guarana-2l-225.jpg" alt="Galinha Caipira">
-               </div>
-               <div class="card__data">
-                   <h3>Guaraná Antártica</h3>
-               </div>
-               
-               <div class="card__preci">
-                   <span>R$ 10,00</span>
-               </div>
-           </div>
-       </div>
-
-<!--INICIO REFRIGERANTES 1,5L-->
-        <h3 class="section-subtitle2">REFRIGERANTE 1,5 LITRO</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/coca-cola-1l-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Coca-Cola</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 10,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Jesus-1-L-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Jesus</h3>
-                </div>               
-                <div class="card__preci">
-                    <span>R$ 10,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/fanta-1l-225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Fanta</h3>
-                </div>         
-                <div class="card__preci">
-                    <span>R$ 9,50</span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/guarana-antarctica-1l-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Guaraná Antartica</h3>
-                </div>                
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-        </div>
-
-<!--INICIO REFRIGERANTES 1L-->
-        <h3 class="section-subtitle2">REFRIGERANTE 1 LITRO</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-             <div class="card">
-                 <div class="card__img">
-                     <img src="assets/img/coca-cocal-2l-225.jpg" alt="Galinha Caipira">
-                 </div>
-                 <div class="card__data">
-                     <h3>Coca-Cola</h3>
-                 </div>
-                 
-                 <div class="card__preci">
-                     <span>R$ 9,00</span>
-                 </div>
-             </div>
-
-             <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/Jesus-1-L-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Jesus</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 9,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/fanta-1l-225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Fanta</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 8,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/guarana-antarctica-1l-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Guaraná Antartica</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 8,00</span>
-                </div>
-            </div>
-
-        </div>
-
-<!--INICIO REFRIGERANTES LATA 350ML-->
-        <h3 class="section-subtitle2">REFRIGERANTE LATA 350ml</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/coca-cola-lata-350ml-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Coca-Cola</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 5,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/jesus-lata350-225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Jesus</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 5,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/fanta-laranja-lata-350ml-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Fanta</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 5,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/guarana-antartica-lata-225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Guaraná Antartica</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 5,00</span>
-                </div>
-            </div>
-
-        </div>
-
-<!--INICIO REFRIGERANTES LATA 350ML-->
-        <h3 class="section-subtitle2">ENERGÉTICO / DRINKS</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/red-bull-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Red Bull</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 12,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/TNT-lata-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>TNT</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 10,00</span>
-                </div>
-            </div>
-        </div>
-
-<!--INICIO SUCOS E ÁGUA-->
-        <h3 class="section-subtitle2">SUCOS E ÁGUA</h3>
-        <div class="cardapio__container bd-container bd-grid">
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/agua_225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Água sem gás</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 3,00</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/agua_225.png" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Água com gás</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 4,00</span>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/agua-de-coco-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Água de coco</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 4,00</span>
-                </div>
-            </div>
-
-                            
-            <div class="card">
-                <div class="card__img">
-                    <img src="assets/img/agua-coco-jarra-225.jpg" alt="Galinha Caipira">
-                </div>
-                <div class="card__data">
-                    <h3>Água de coco jarra 1 litro</h3>
-                </div>
-                
-                <div class="card__preci">
-                    <span>R$ 22,00</span>
-                </div>
-            </div>
-        </div>
-
-
-<!--INICIO SUCOS E ÁGUA-->
-        <h3 class="section-subtitle2">OUTRAS BEBIDAS</h3>
-           <div class="cardapio__container bd-container bd-grid">
- 
-               <div class="card">
-                   <div class="card__img">
-                       <img src="assets/img/vinho-225.jpg" alt="Galinha Caipira">
-                   </div>
-                   <div class="card__data">
-                       <h3>Vinho Gaúcho</h3>
-                   </div>
-                   
-                   <div class="card__preci">
-                       <span>R$ 12,00</span>
-                   </div>
-               </div>
-
-               <div class="card">
-                   <div class="card__img">
-                       <img src="assets/img/sao-joao-225.jpg" alt="Galinha Caipira">
-                   </div>
-                   <div class="card__data">
-                       <h3>São João dos Barra</h3>
-                   </div>
-                   
-                   <div class="card__preci">
-                       <span>R$ 25,00</span>
-                   </div>
-               </div>
-               
-               <div class="card">
-                   <div class="card__img">
-                       <img src="assets/img/caninha-da-roca-225.jpg" alt="Galinha Caipira">
-                   </div>
-                   <div class="card__data">
-                       <h3>Caninha da Roça</h3>
-                   </div>
-                   
-                   <div class="card__preci">
-                       <span>R$ 8,00</span>
-                   </div>
-               </div>
-                              
-               <div class="card">
-                   <div class="card__img">
-                       <img src="assets/img/caninha-da-roca-500ml-225.png" alt="Galinha Caipira">
-                   </div>
-                   <div class="card__data">
-                       <h3>Caninha 500ml</h3>
-                   </div>
-                   <div class="card__preci">
-                       <span>R$ 6,00</span>
-                   </div>
-               </div>
-           </div>
-    </section>
-    <div class="button_voltar">
-        <a href="index.html"><button class="botao">Voltar a página anterior</button></a>
-    </div>
-</body>
+    </body>
 </html>
